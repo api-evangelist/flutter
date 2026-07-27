@@ -1,22 +1,68 @@
 aid: flutter
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flutter.png
 name: Flutter
-description: Flutter is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Flutter was an early-stage gesture-recognition startup founded in 2010 by Mehul
+  Nariyawala and Navneet Dalal and based in California. Its consumer app used
+  computer-vision hand-gesture recognition over a built-in webcam to control media
+  players such as iTunes, Spotify, VLC, and QuickTime; it launched in 2012, reached
+  number one free app in dozens of countries on the Mac App Store, and was named by
+  Apple among the best free apps of 2012. The company raised early funding from Y
+  Combinator, Andreessen Horowitz (a16z), and NEA before Google acquired it on
+  October 2, 2013, after which the product was discontinued. It has no active
+  developer program, public API, or maintained developer portal today. This profile
+  is retained as a historical portfolio-lead record; there is no live provider
+  surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/flutter/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- Y Combinator
+- NEA
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: Acquired by Google on 2013-10-02; product discontinued, no active API surface.
+x-acquired-by: Google
+x-acquired-date: '2013-10-02'
+x-founded: '2010'
+x-founders:
+- Mehul Nariyawala
+- Navneet Dalal
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Gesture Recognition
+- Computer Vision
+- Consumer Software
+- Media Control
+- Acquired
+- Defunct
 apis: []
+common:
+- type: Wikipedia
+  url: https://en.wikipedia.org/wiki/Flutter_(company)
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
