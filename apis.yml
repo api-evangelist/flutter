@@ -58,7 +58,7 @@ modified: '2026-07-19'
 tags:
 - Company
 - Gesture Recognition
-- Computer-Vision
+- Computer Vision
 - Consumer Software
 - Media Control
 - Acquired
@@ -71,6 +71,7 @@ tags_raw:
 - Media Control
 - Acquired
 - Defunct
+- Computer-Vision
 apis: []
 common:
 - type: Wikipedia
